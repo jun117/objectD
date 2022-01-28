@@ -4,10 +4,10 @@ class Rectangle:
         self.width = width
 
     def area(self):
-        return (self.height * self.width)
+        return format((self.height * self.width), '.2f')
 
     def diagonal(self):
-        return ((self.height ** 2 + self.width ** 2) ** 0.5)
+        return format((self.height ** 2 + self.width ** 2) ** 0.5, '.2f')
 
 
 rectangle1 = Rectangle(height=5, width=6)

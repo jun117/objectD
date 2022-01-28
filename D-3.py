@@ -6,7 +6,7 @@ class Square:
         return (self.side * self.side)
 
     def diagonal(self):
-        return ((self.side ** 2 + self.side ** 2) ** 0.5)
+        return format(((self.side ** 2 + self.side ** 2) ** 0.5), '.2f')
 
 
 square1 = Square(side=1.5)
